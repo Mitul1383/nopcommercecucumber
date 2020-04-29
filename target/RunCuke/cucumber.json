@@ -1,0 +1,3185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 29236484600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to books page successfully",
+        "description": "",
+        "id": "books-functionality;verify-user-should-navigate-to-books-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 132800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2008700900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5318693400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Books feature",
+            "match": {
+              "location": "BooksTest.iClickOnBooksFeature()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 799081200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be in Books page successfully",
+            "match": {
+              "location": "BooksTest.iShouldBeInBooksPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20524978800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user should find books in ascending order A to Z",
+        "description": "",
+        "id": "books-functionality;verify-user-should-find-books-in-ascending-order-a-to-z",
+        "after": [
+          {
+            "result": {
+              "duration": 63600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2676537800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Books feature",
+            "match": {
+              "location": "BooksTest.iClickOnBooksFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270549900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on sort by position button",
+            "match": {
+              "location": "BooksTest.iClickOnSortByPositionButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2265148100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select Name A to Z",
+            "match": {
+              "location": "BooksTest.iSelectNameAToZ()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998586400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see below books displayed in A to Z order",
+            "match": {
+              "location": "BooksTest.iShouldSeeBelowBooksDisplayedInAToZOrder()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27563605900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify user should find books price in Low To High order",
+        "description": "",
+        "id": "books-functionality;verify-user-should-find-books-price-in-low-to-high-order",
+        "after": [
+          {
+            "result": {
+              "duration": 83400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 312200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6462719900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Books feature",
+            "match": {
+              "location": "BooksTest.iClickOnBooksFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164085200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on sort by position button",
+            "match": {
+              "location": "BooksTest.iClickOnSortByPositionButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1641832500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select Price Low to High",
+            "match": {
+              "location": "BooksTest.iSelectPriceLowToHigh()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222245700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see below books displayed in Low to High order",
+            "match": {
+              "location": "BooksTest.iShouldSeeBelowBooksDisplayedInLowToHighOrder()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Books Functionality",
+    "description": "As a user\r\nI want to visit nop commerce website to buy books",
+    "id": "books-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/demo/nopcommerce/resources/featurefile/books.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 51956991300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to computer page",
+        "description": "",
+        "id": "computer-page-functionality;verify-user-should-navigate-to-computer-page",
+        "after": [
+          {
+            "result": {
+              "duration": 48100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5184336200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on computer feature",
+            "match": {
+              "location": "ComputerTest.iClickOnComputerFeature()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490887300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be on computer page successfully",
+            "match": {
+              "location": "ComputerTest.iShouldBeOnComputerPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 76398389700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user should add product to cart successfully",
+        "description": "",
+        "id": "computer-page-functionality;verify-user-should-add-product-to-cart-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 34100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8012634300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on computer feature",
+            "match": {
+              "location": "ComputerTest.iClickOnComputerFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37466697700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on desktop feature",
+            "match": {
+              "location": "ComputerTest.iClickOnDesktopFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194561800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on position field",
+            "match": {
+              "location": "ComputerTest.iClickOnPositionField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1829603900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I sort item by A to Z button",
+            "match": {
+              "location": "ComputerTest.iSortItemByAToZButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43817310500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on build computer button",
+            "match": {
+              "location": "ComputerTest.iClickOnBuildComputerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 300636100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on radio button",
+            "match": {
+              "location": "ComputerTest.iClickOnRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150253500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on add to cart button",
+            "match": {
+              "location": "ComputerTest.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1173728800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see product added successful message",
+            "match": {
+              "location": "ComputerTest.iShouldSeeProductAddedSuccessfulMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Computer page functionality",
+    "description": "As a user\r\nI want to visit computer page on nop commerce website",
+    "id": "computer-page-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/demo/nopcommerce/resources/featurefile/computer.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 52066049500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to login page",
+        "description": "",
+        "id": "login-functionality;verify-user-should-navigate-to-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 48600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7003748500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginTest.iClickOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 910580200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be in login page",
+            "match": {
+              "location": "LoginTest.iShouldBeInLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 78148620900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user should login with valid credentials successfully",
+        "description": "",
+        "id": "login-functionality;verify-user-should-login-with-valid-credentials-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 109100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 923500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7121321300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginTest.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8882406400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter email id \"dhanno@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterEmailId(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1098339100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34988477800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Login tab",
+            "match": {
+              "location": "LoginTest.iClickOnLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81230600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be login successfully",
+            "match": {
+              "location": "LoginTest.iShouldBeLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 110057343300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify user should not login without email Id credentials",
+        "description": "",
+        "id": "login-functionality;verify-user-should-not-login-without-email-id-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 23500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4167312100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginTest.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1517378800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email id \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterEmailId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 464305300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"1234@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483270900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Login tab",
+            "match": {
+              "location": "LoginTest.iClickOnLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65389800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should be not login system throws \"Please enter your email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter your email",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginTest.iShouldBeNotLoginSystemThrows(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 132773332500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify user should not login without email Id credentials",
+        "description": "",
+        "id": "login-functionality;verify-user-should-not-login-without-email-id-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 23200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 47300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1720108500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginTest.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138013900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email id \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterEmailId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219385800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"123fghem@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123fghem@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138156600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Login tab",
+            "match": {
+              "location": "LoginTest.iClickOnLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58758100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should be not login system throws \"Please enter your email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter your email",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginTest.iShouldBeNotLoginSystemThrows(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 47310313000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify user should not login without email Id credentials",
+        "description": "",
+        "id": "login-functionality;verify-user-should-not-login-without-email-id-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 22100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3896005300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginTest.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93726400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email id \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterEmailId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136706700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"sdfvgg1234@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sdfvgg1234@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208041300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Login tab",
+            "match": {
+              "location": "LoginTest.iClickOnLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 421196100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should be not login system throws \"Please enter your email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter your email",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginTest.iShouldBeNotLoginSystemThrows(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 90408341900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify user should not login without email Id credentials",
+        "description": "",
+        "id": "login-functionality;verify-user-should-not-login-without-email-id-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 25100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 55000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3131741200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginTest.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115014800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email id \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterEmailId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 509394200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"1234wedsc@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234wedsc@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127666100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Login tab",
+            "match": {
+              "location": "LoginTest.iClickOnLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62711900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should be not login system throws \"Please enter your email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter your email",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginTest.iShouldBeNotLoginSystemThrows(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 51413978300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify user should not login without email Id credentials",
+        "description": "",
+        "id": "login-functionality;verify-user-should-not-login-without-email-id-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 24900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2375449000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Login button",
+            "match": {
+              "location": "LoginTest.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223171400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email id \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterEmailId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204249900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"1234wedsc@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234wedsc@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261924200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Login tab",
+            "match": {
+              "location": "LoginTest.iClickOnLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197512400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should be not login system throws \"Please enter your email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter your email",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginTest.iShouldBeNotLoginSystemThrows(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "As a user\r\nI want to login on nop commerce website",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/demo/nopcommerce/resources/featurefile/login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 40692728300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to register page successfully",
+        "description": "",
+        "id": "register-functionality;verify-user-should-navigate-to-register-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 32800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25294178300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on register feature",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterFeature()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1512685900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be on register page successfully",
+            "match": {
+              "location": "RegisterTest.iShouldBeOnRegisterPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26315962400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user should register successfully with valid credentials",
+        "description": "",
+        "id": "register-functionality;verify-user-should-register-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 40900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2387844600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on register feature",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176028900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select gender",
+            "match": {
+              "location": "RegisterTest.iSelectGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1144953900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter user first name \"dhannorunner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhannorunner",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterTest.iEnterUserFirstName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179755400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter last name \"runner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "runner",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterTest.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3787120300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select day of birth \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 23
+                }
+              ],
+              "location": "RegisterTest.iSelectDayOfBirth(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147347800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select date of birth month \"march\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "march",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthMonth(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 463713700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select date of birth year \"1986\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1986",
+                  "offset": 29
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthYear(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 753055000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter \"email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 9
+                }
+              ],
+              "location": "RegisterTest.iEnter(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247761400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter company name \"dhannorunner limited\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhannorunner limited",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterTest.iEnterCompanyName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83649600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on check box of news letter",
+            "match": {
+              "location": "RegisterTest.iClickOnCheckBoxOfNewsLetter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163901000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"dhannoruuun1223\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhannoruuun1223",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150193700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter confirm password \"dhannoruuun1223\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhannoruuun1223",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterTest.iEnterConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32936128100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123968500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should register successfully",
+            "match": {
+              "location": "RegisterTest.iShouldRegisterSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20631546200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Verify user should not register without last name",
+        "description": "",
+        "id": "register-functionality;verify-user-should-not-register-without-last-name;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 22600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5319539300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on register feature",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466592100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select gender",
+            "match": {
+              "location": "RegisterTest.iSelectGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164804600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter user first name \"bhavesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bhavesh",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterTest.iEnterUserFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 348502300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter last name \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterTest.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197390900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select day of birth \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 23
+                }
+              ],
+              "location": "RegisterTest.iSelectDayOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103553100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I select date of birth month \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthMonth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148502200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select date of birth year \"1985\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1985",
+                  "offset": 29
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthYear(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329804900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter email \"nirooshan@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirooshan@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterTest.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183914400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter company name \"abc limited\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc limited",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterTest.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95176500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on check box of news letter",
+            "match": {
+              "location": "RegisterTest.iClickOnCheckBoxOfNewsLetter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229845000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter password \"dhanno12345@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno12345@@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235171100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter confirm password \"dhanno12345@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno12345@@",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterTest.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2367712900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68020900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should not register successfully \"Last name is required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Last name is required.",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterTest.iShouldNotRegisterSuccessfully(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22439818500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Verify user should not register without last name",
+        "description": "",
+        "id": "register-functionality;verify-user-should-not-register-without-last-name;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 504600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 372700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4003125900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on register feature",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155004300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select gender",
+            "match": {
+              "location": "RegisterTest.iSelectGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128495100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter user first name \"lamee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lamee",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterTest.iEnterUserFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90812900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter last name \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterTest.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 781028400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select day of birth \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 23
+                }
+              ],
+              "location": "RegisterTest.iSelectDayOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105809500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I select date of birth month \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthMonth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184415400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select date of birth year \"1975\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1975",
+                  "offset": 29
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthYear(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220184700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter email \"niron@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "niron@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterTest.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166635600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter company name \"abd limited\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abd limited",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterTest.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93842200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on check box of news letter",
+            "match": {
+              "location": "RegisterTest.iClickOnCheckBoxOfNewsLetter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160270300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter password \"dhanno123@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno123@@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167236500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter confirm password \"dhanno123@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno123@@",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterTest.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130320900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 734992000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should not register successfully \"Last name is required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Last name is required.",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterTest.iShouldNotRegisterSuccessfully(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 60218534900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Verify user should not register without last name",
+        "description": "",
+        "id": "register-functionality;verify-user-should-not-register-without-last-name;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 56900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 53200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1900450900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on register feature",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138623500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select gender",
+            "match": {
+              "location": "RegisterTest.iSelectGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 365128300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter user first name \"brijesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "brijesh",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterTest.iEnterUserFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134840500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter last name \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterTest.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181463600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select day of birth \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 23
+                }
+              ],
+              "location": "RegisterTest.iSelectDayOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96151700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I select date of birth month \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthMonth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 855367700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select date of birth year \"1995\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1995",
+                  "offset": 29
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthYear(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 576669500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter email \"practice@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "practice@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterTest.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183057100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter company name \"abs limited\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abs limited",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterTest.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96975700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on check box of news letter",
+            "match": {
+              "location": "RegisterTest.iClickOnCheckBoxOfNewsLetter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276284700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter password \"dhanno345@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno345@@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184001700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter confirm password \"dhanno345@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno345@@",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterTest.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130216000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57818500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should not register successfully \"Last name is required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Last name is required.",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterTest.iShouldNotRegisterSuccessfully(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26015050600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Verify user should not register without last name",
+        "description": "",
+        "id": "register-functionality;verify-user-should-not-register-without-last-name;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 27900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2507880400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on register feature",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368782500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select gender",
+            "match": {
+              "location": "RegisterTest.iSelectGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183262100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter user first name \"ankita\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ankita",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterTest.iEnterUserFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118317400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter last name \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterTest.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165222800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select day of birth \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 23
+                }
+              ],
+              "location": "RegisterTest.iSelectDayOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104570000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I select date of birth month \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthMonth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202266000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select date of birth year \"1965\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1965",
+                  "offset": 29
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthYear(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264517900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter email \"return@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "return@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterTest.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283737100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter company name \"abq limited\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abq limited",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterTest.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354436400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on check box of news letter",
+            "match": {
+              "location": "RegisterTest.iClickOnCheckBoxOfNewsLetter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 558734400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter password \"dhan12345@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhan12345@@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214389300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter confirm password \"dhan12345@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhan12345@@",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterTest.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143313400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58953600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should not register successfully \"Last name is required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Last name is required.",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterTest.iShouldNotRegisterSuccessfully(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 56456211800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Verify user should not register without last name",
+        "description": "",
+        "id": "register-functionality;verify-user-should-not-register-without-last-name;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 23200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am on nop commerce Home Page",
+            "match": {
+              "location": "ComputerTest.iAmOnNopCommerceHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2257225000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on register feature",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterFeature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143500200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select gender",
+            "match": {
+              "location": "RegisterTest.iSelectGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156290600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter user first name \"mey\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mey",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterTest.iEnterUserFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89778300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter last name \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterTest.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521095500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select day of birth \"9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 23
+                }
+              ],
+              "location": "RegisterTest.iSelectDayOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95967500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I select date of birth month \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthMonth(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138874300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select date of birth year \"1970\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1970",
+                  "offset": 29
+                }
+              ],
+              "location": "RegisterTest.iSelectDateOfBirthYear(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266619100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter email \"anusk@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anusk@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterTest.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163968000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter company name \"abr limited\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abr limited",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterTest.iEnterCompanyName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350425100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on check box of news letter",
+            "match": {
+              "location": "RegisterTest.iClickOnCheckBoxOfNewsLetter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170695600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter password \"dhanno1345@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno1345@@",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 735948000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter confirm password \"dhanno1345@@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno1345@@",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterTest.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151608500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69017400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should not register successfully \"Last name is required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Last name is required.",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterTest.iShouldNotRegisterSuccessfully(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register Functionality",
+    "description": "As a user\r\nI want to register on nop commerce website",
+    "id": "register-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/demo/nopcommerce/resources/featurefile/register.feature"
+  }
+]
